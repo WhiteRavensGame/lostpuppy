@@ -14,7 +14,7 @@ public class PauseMenu : MonoBehaviour
             Pausemenu.SetActive(true);
             Time.timeScale = 0;
             Cursor.lockState = CursorLockMode.Confined;
-
+            
             Ispause = true;
             return;
         }
@@ -41,6 +41,6 @@ public class PauseMenu : MonoBehaviour
     public void mainmenu()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("UIScene");
+        SceneManager.LoadScene("MainMenu");
     }
 }
