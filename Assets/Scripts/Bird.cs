@@ -24,7 +24,7 @@ public class Bird : MonoBehaviour
 
             if (GameManager.birdGot == (false))
             {
-                GameManager.goodDeeds++;
+                GameManager.Instance.goodDeeds++;
             }
 
             GameManager.birdGot = (true);

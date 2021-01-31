@@ -5,13 +5,33 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public bool breadCollected = false;
-    public PauseMenu pauseMenu;
+    //public PauseMenu pauseMenu;
     public bool birdGot = false;
     public bool picGot = false;
 
-    public static int goodDeeds = 0;
+    public bool bearKeyGot = false;
+    public bool gateKeyGot = false;
 
-    private void Start()
+    public int goodDeeds = 0;
+
+    public static GameManager Instance;
+
+    void Start()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+
+            DontDestroyOnLoad(this.gameObject);
+        }
+
+        else
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    /*private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -21,5 +41,5 @@ public class GameManager : MonoBehaviour
         {
             pauseMenu.Pause();
         }
-    }
+    }*/
 }

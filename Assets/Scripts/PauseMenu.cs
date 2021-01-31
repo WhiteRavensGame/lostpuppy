@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject Pausemenu, PauseButton;
+    public GameObject Pausemenu;
     private bool Ispause = false;
     public void Pause()
     {
@@ -18,13 +18,26 @@ public class PauseMenu : MonoBehaviour
             Ispause = true;
             return;
         }
-        else 
+        
+        else
         {
             Pausemenu.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
             Time.timeScale = 1;
+
+            Ispause = false;
         }
     }
+
+    public void Resume()
+    {
+        Ispause = false;
+
+        Pausemenu.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
+        Time.timeScale = 1;
+    }
+
     public void mainmenu()
     {
         Time.timeScale = 1;
