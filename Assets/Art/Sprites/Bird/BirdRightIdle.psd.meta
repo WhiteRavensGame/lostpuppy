@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: 3c0aaaf572fa0274194ea63b8dfc4a83
+guid: de1f2cb66a3070244b66a1d5b94c30a2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5570134139608196501
-    second: BirdFrontIdle_0
+      213: 1888318566464931570
+    second: BirdRightIdle_0
   - first:
-      213: -21819360084768940
-    second: BirdFrontIdle_1
+      213: -6251868393942910734
+    second: BirdRightIdle_1
   - first:
-      213: 8940397810690702692
-    second: BirdFrontIdle_2
+      213: -1706703013745197663
+    second: BirdRightIdle_2
   - first:
-      213: -8462478268165300573
-    second: BirdFrontIdle_3
+      213: 6164890801346577889
+    second: BirdRightIdle_3
   - first:
-      213: -7460304193801199299
-    second: BirdFrontIdle_4
+      213: -294339315625401541
+    second: BirdRightIdle_4
+  - first:
+      213: -4673592391969294793
+    second: BirdRightIdle_5
+  - first:
+      213: -5816048879296123187
+    second: BirdRightIdle_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -116,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BirdFrontIdle_0
+      name: BirdRightIdle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 100
-        height: 101
+        width: 120
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5956f96fc771d4d40800000000000000
-      internalID: 5570134139608196501
+      spriteID: 2f6cae04bb7a43a10800000000000000
+      internalID: 1888318566464931570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdFrontIdle_1
+      name: BirdRightIdle_1
       rect:
         serializedVersion: 2
-        x: 100
+        x: 120
         y: 0
-        width: 100
-        height: 101
+        width: 120
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 457cbe8586b72bff0800000000000000
-      internalID: -21819360084768940
+      spriteID: 2f87a8cc1d6ec39a0800000000000000
+      internalID: -6251868393942910734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdFrontIdle_2
+      name: BirdRightIdle_2
       rect:
         serializedVersion: 2
-        x: 200
+        x: 240
         y: 0
-        width: 100
-        height: 101
+        width: 120
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46d36e8c07ca21c70800000000000000
-      internalID: 8940397810690702692
+      spriteID: 1adf0a8c6a29058e0800000000000000
+      internalID: -1706703013745197663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdFrontIdle_3
+      name: BirdRightIdle_3
       rect:
         serializedVersion: 2
-        x: 300
+        x: 360
         y: 0
-        width: 100
-        height: 101
+        width: 120
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ae5b8ae9dc3f8a80800000000000000
-      internalID: -8462478268165300573
+      spriteID: 1e5065555871e8550800000000000000
+      internalID: 6164890801346577889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BirdFrontIdle_4
+      name: BirdRightIdle_4
       rect:
         serializedVersion: 2
-        x: 400
+        x: 480
         y: 0
-        width: 100
-        height: 101
+        width: 120
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,8 +220,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d316f14bcdca77890800000000000000
-      internalID: -7460304193801199299
+      spriteID: b3367b0b3fb4aebf0800000000000000
+      internalID: -294339315625401541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdRightIdle_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 120
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736b3b33b70142fb0800000000000000
+      internalID: -4673592391969294793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdRightIdle_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 120
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceee39eb5e394fa0800000000000000
+      internalID: -5816048879296123187
       vertices: []
       indices: 
       edges: []
