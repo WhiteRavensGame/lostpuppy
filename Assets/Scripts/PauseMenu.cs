@@ -14,7 +14,7 @@ public class PauseMenu : MonoBehaviour
             Pausemenu.SetActive(true);
             Time.timeScale = 0;
             Cursor.lockState = CursorLockMode.Confined;
-
+            
             Ispause = true;
             return;
         }
