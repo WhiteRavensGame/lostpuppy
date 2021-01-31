@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
+    public bool breadCollected = false;
 
-        }
-    }
+    public bool birdGot = false;
+    public bool picGot = false;
 }
