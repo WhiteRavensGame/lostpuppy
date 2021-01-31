@@ -11,7 +11,7 @@ public class Menu : MonoBehaviour
     }
     public void menu()
     {
-        SceneManager.LoadScene("UIScene");
+        SceneManager.LoadScene("MainMenu");
     }
     public void startgame()
     {
