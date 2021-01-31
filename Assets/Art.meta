@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: b9c23d6b9bd0fea4cb9576d14a62a124
-=======
-guid: 588b0c4733bbcd041aa1551e07f339cb
->>>>>>> parent of 0a4f081 (Revert "Animations and Sprites for Idle and Walk, left and Right")
+guid: ceefb67a6ad50c9448c0a74c26fa9e1f
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
