@@ -913,6 +913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   breadCollected: 0
+  pauseMenu: {fileID: 266062804372120411, guid: 3ca8356b654a2034097a3520d7ed21b2, type: 3}
   birdGot: 0
   picGot: 0
 --- !u!4 &676565320

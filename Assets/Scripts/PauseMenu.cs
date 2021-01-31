@@ -6,20 +6,24 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject Pausemenu, PauseButton;
-
+    private bool Ispause = false;
     public void Pause()
     {
-        Pausemenu.SetActive(true);
-        PauseButton.SetActive(false);
-        Time.timeScale = 0;
-    }
+        if(Ispause == false)
+        {
+            Pausemenu.SetActive(true);
+            Time.timeScale = 0;
+            Cursor.lockState = CursorLockMode.Confined;
 
-    public void Resume()
-    {
-        Pausemenu.SetActive(false);
-        PauseButton.SetActive(true);
-
-        Time.timeScale = 1;
+            Ispause = true;
+            return;
+        }
+        else 
+        {
+            Pausemenu.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
+            Time.timeScale = 1;
+        }
     }
     public void mainmenu()
     {
