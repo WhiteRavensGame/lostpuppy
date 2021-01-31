@@ -10,8 +10,8 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: -1285274673071780382}
-    m_Position: {x: 200, y: 0, z: 0}
+    m_State: {fileID: -2498522955225486208}
+    m_Position: {x: 360, y: 70, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -21,15 +21,15 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -1285274673071780382}
---- !u!1102 &-1285274673071780382
+  m_DefaultState: {fileID: -2498522955225486208}
+--- !u!1102 &-2498522955225486208
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WalkUp
+  m_Name: Good
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -42,7 +42,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: cbdf75cb3df0aa845a5e1238125a4746, type: 2}
+  m_Motion: {fileID: 7400000, guid: dfdab73d83f938f44a0fc265b48856be, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
