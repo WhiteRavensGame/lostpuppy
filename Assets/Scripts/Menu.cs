@@ -9,9 +9,9 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("UIScene");
     }
-    public void gameplay()
+    public void startgame()
     {
-        SceneManager.LoadScene("Gameplay");
+        SceneManager.LoadScene("DaytimeForest");
     }
     public void credits()
     {
