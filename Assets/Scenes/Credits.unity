@@ -2342,7 +2342,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 2
-  m_Text: 'Art - Animation - Narrative Designe
+  m_Text: 'Art - Animation - Narrative Design
 
 
 '
@@ -3380,7 +3380,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Game and Narrative Design - Programmingwe
+  m_Text: Game and Narrative Design - Programming
 --- !u!222 &2110955236
 CanvasRenderer:
   m_ObjectHideFlags: 0
