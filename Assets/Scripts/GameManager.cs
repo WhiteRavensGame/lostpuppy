@@ -8,4 +8,6 @@ public class GameManager : MonoBehaviour
 
     public bool birdGot = false;
     public bool picGot = false;
+
+    public static int goodDeeds = 0;
 }

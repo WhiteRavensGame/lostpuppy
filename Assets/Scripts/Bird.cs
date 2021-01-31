@@ -22,6 +22,11 @@ public class Bird : MonoBehaviour
 
             UIManager.InitiateDia();
 
+            if (GameManager.birdGot == (false))
+            {
+                GameManager.goodDeeds++;
+            }
+
             GameManager.birdGot = (true);
 
             return;
