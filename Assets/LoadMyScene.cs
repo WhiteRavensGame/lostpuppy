@@ -6,6 +6,6 @@ public class LoadMyScene : MonoBehaviour
 {
     public void LoadNewScene()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("DaytimeForest");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("CreditsB");
     }
 }
