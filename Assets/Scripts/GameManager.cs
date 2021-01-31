@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     public bool bearKeyGot = false;
     public bool gateKeyGot = false;
 
+    public bool floatGot = false;
+    public bool ballGot = false;
+
     public int goodDeeds = 0;
 
     public static GameManager Instance;
