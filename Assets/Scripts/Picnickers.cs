@@ -17,7 +17,7 @@ public class Picnickers : MonoBehaviour
 
         if (GameManager.breadCollected == (true) && GameManager.birdGot == (false))
         {
-            diaText.text = "\"Thanks dude, good pup!\"";
+            diaText.text = "\"Tubular, doggie bruh!!  Yo, this is totally going on my myspace!\"";
 
             UIManager.InitiateDia();
 
@@ -26,7 +26,7 @@ public class Picnickers : MonoBehaviour
             return;
         }
         
-        diaText.text = "\"We lost one out of our peices of bread. We have some, but it's always nice to have more on hand, think you can find it?\"";
+        diaText.text = "\"Suuup, doggie bruh! Yooo, you see any bread lying around? We got some, but just incase we need more, mind finding it?\"";
 
         UIManager.InitiateDia();
     }

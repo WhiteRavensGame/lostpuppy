@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
+    public Animator codyAnimator;
 
     private int keysPressed = 0;
     public float movementSpeed;
@@ -23,24 +24,36 @@ public class PlayerMovement : MonoBehaviour
         {
             keysPressed += 1;
             yVelocity = movementSpeed;
+
+            codyAnimator.SetBool("leftMove", false);
+            codyAnimator.SetBool("rightMove", true);
         }
 
         if (Input.GetKey(KeyCode.S))
         {
             keysPressed += 1;
             yVelocity = -movementSpeed;
+
+            codyAnimator.SetBool("rightMove", false);
+            codyAnimator.SetBool("leftMove", true);
         }
 
         if (Input.GetKey(KeyCode.A))
         {
             keysPressed += 1;
             xVelocity = -movementSpeed;
+
+            codyAnimator.SetBool("rightMove", false);
+            codyAnimator.SetBool("leftMove", true);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
             keysPressed += 1;
             xVelocity = movementSpeed;
+
+            codyAnimator.SetBool("leftMove", false);
+            codyAnimator.SetBool("rightMove", true);
         }
 
         //GetKeyUp
@@ -57,6 +70,9 @@ public class PlayerMovement : MonoBehaviour
         if ((Input.GetKeyUp(KeyCode.S)) || (Input.GetKeyUp(KeyCode.W)) || (Input.GetKeyUp(KeyCode.A)) || (Input.GetKeyUp(KeyCode.D)))
         {
             keysPressed -= 1;
+
+            codyAnimator.SetBool("leftMove", false);
+            codyAnimator.SetBool("rightMove", false);
 
             if (keysPressed == 0)
             {
