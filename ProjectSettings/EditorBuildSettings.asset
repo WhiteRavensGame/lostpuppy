@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/DaytimeForest.unity
     guid: 4c14b05379ecbeb45ad4789f9bd7c196
   - enabled: 1
+    path: Assets/Scenes/NightimeForest.unity
+    guid: 9bb259567c27cd246aaf09f65c1bf8df
+  - enabled: 1
     path: Assets/Scenes/CreditsB.unity
     guid: 030e390643e315b41838efb45ba320da
   - enabled: 1
