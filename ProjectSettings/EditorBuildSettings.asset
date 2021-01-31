@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/UIScene.unity
     guid: 6ce94a94f20dded44bd84a106d8d8915
@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DaytimeForest.unity
     guid: 4c14b05379ecbeb45ad4789f9bd7c196
+  - enabled: 1
+    path: Assets/Scenes/CreditsB.unity
+    guid: 030e390643e315b41838efb45ba320da
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: c83cee800e316bb4a82c43f3d29b1a4f
   m_configObjects: {}
